@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (quá lớn cho GitHub)
+saved_models/**/*.pkl
+saved_models/**/*.h5
+saved_models/**/*.pt
+saved_models/**/*.pth
+
+# Feature files (quá lớn cho GitHub)
+saved_features/**/*.pkl
+saved_features/**/*.npy
+saved_features/**/*.npz
+
+# Giữ lại cấu trúc thư mục
+!saved_models/**/.gitkeep
+!saved_features/**/.gitkeep
+!saved_models/**/config.json
+!saved_features/**/config.json
+
+# Dataset (quá lớn)
+Data/afhq-raw/
+Data/afhq_split_80_20/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
